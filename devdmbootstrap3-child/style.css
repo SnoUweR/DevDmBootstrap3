@@ -23,7 +23,7 @@ body {
 }
 
 .dmbs-container {
-    background: none repeat scroll 0% 0% #FFF;
+
 }
 
 .dmbs-header {
@@ -85,6 +85,7 @@ background: url("./images/congruent_outline.png");
     border-left: 1px solid #A8A8A8;
     border-right: 1px solid #A8A8A8;
     border-bottom: 1px solid #A8A8A8;
+    background: none repeat scroll 0% 0% #FFF;
 }
 
 .dmbs-main {
@@ -168,5 +169,5 @@ background-color: #5bc0de;
 }
 
 .dmbs-footer {
-
+	margin-top: 10px;
 }

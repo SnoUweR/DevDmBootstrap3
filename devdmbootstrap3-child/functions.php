@@ -1,5 +1,7 @@
 <?php
 add_action( 'after_setup_theme', 'parent_override' );
+add_action( 'after_setup_theme', 'my_child_theme_locale' );
+
 function parent_override() {
 
 unregister_sidebar('right_sidebar');
@@ -22,6 +24,10 @@ unregister_sidebar('right_sidebar');
 			</div>
 			<div class="panel-body">',
         ));
+}
+
+function my_child_theme_locale() {
+    load_child_theme_textdomain( 'devdmbootstrap3-child', get_stylesheet_directory() . '/languages' );
 }
 
 ?>
