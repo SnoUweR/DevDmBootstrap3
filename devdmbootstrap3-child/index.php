@@ -89,8 +89,14 @@
                      <?php  endif; ?>
 
                 <?php endwhile; ?>
-                <?php posts_nav_link(); ?>
-                <?php else: ?>
+                <div class="row">
+				<div class="col-md-12 text-center">
+				<div class="navigation">
+				<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } else { posts_nav_link(); } ?>
+                </div>
+				</div>
+				</div>
+				<?php else: ?>
 
                     <?php get_404_template(); ?>
 
