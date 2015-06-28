@@ -1,17 +1,16 @@
-<?php
-/**
- * Template for displaying search forms in Twenty Eleven
- *
- * @package WordPress
- * @subpackage Twenty_Eleven
- * @since Twenty Eleven 1.0
- */
-?>
+<form class="form-inline text-center" method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+  <div class="form-group">
+   <div class="input-group">
+      <input type="text" class="form-control" name="s" id="s" placeholder="<?php esc_attr_e( 'Search', 'devdmbootstrap3-child' ); ?>">
+	        <span class="input-group-btn">
+		<button type="submit" name="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+  <div class="col-lg-6">
+    <div class="input-group">
 
-
-    	<form method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-		<input type="text" class="field" name="s" id="s" placeholder="<?php esc_attr_e( 'Search', 'devdmbootstrap3' ); ?>" />
-		<input type="submit" class="submit" name="submit" id="searchsubmit" value="<?php esc_attr_e( 'Search', 'devdmbootstrap3' ); ?>" />
-	</form>
-
-
+    </div><!-- /input-group -->
+  </div>
+</form>
+	

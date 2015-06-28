@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DevDmBootstrap3-child\n"
 "POT-Creation-Date: 2015-06-28 19:30+0700\n"
-"PO-Revision-Date: 2015-06-29 01:18+0700\n"
+"PO-Revision-Date: 2015-06-29 02:36+0700\n"
 "Last-Translator: Vladislav 'SnoUweR' Kovalev <snouwer@gmail.com>\n"
 "Language-Team: \n"
 "Language: en_EN\n"
@@ -24,4 +24,8 @@ msgstr ""
 
 #: functions.php:97
 msgid "Page %1$s of %2$s"
+msgstr ""
+
+#: searchform.php:4
+msgid "Search"
 msgstr ""
