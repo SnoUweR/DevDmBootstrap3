@@ -18,13 +18,23 @@ Template: devdmbootstrap3
 
 /****************** Special Blank CSS classes for child themes to use without disturbing core bootstrap rules ****************/
 
-.dmbs-container {
+body {
+	background: url("./images/photography.png");
+}
 
+.dmbs-container {
+    background: none repeat scroll 0% 0% #FFF;
 }
 
 .dmbs-header {
 
+background: url("./images/congruent_outline.png");
 }
+
+.dmbs-header a {
+	color: #337AB7;
+}
+
 
 .dmbs-header-img {
 
@@ -35,23 +45,118 @@ Template: devdmbootstrap3
 }
 
 .dmbs-top-menu {
+	background: url("./images/congruent_outline.png");
+}
 
+.dmbs-top-menu .navbar {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    background-color: #000;
+}
+
+.dmbs-top-menu .navbar {
+		background: rgba(0, 0, 0, 0.3) none repeat scroll 0% 0%;
+		border: 0;
+}
+
+.dmbs-top-menu  .navbar-inverse .navbar-nav  li  a {
+	color: #fff;
+}
+
+
+
+.dmbs-top-menu .navbar li a:hover,
+.dmbs-top-menu .navbar li a:focus,
+.dmbs-top-menu .navbar li.active
+{
+    outline: 0;	
+    background-color: rgba(255,255,255,.2);
+}
+
+.dmbs-top-menu .navbar .nav li a
+{
+    -webkit-transition: background .3s ease-in-out;
+       -moz-transition: background .3s ease-in-out;
+            transition: background .3s ease-in-out;
 }
 
 .dmbs-content {
-
+    border-left: 1px solid #A8A8A8;
+    border-right: 1px solid #A8A8A8;
+    border-bottom: 1px solid #A8A8A8;
 }
 
 .dmbs-main {
 
 }
 
+.dmbs-main .post .page-header:first-of-type {
+	border-bottom: 0;
+}
+
+.post-wrapper {
+		border-bottom: 1px solid #DDD;
+
+
+}
+
+.post .post-content {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.post-wrapper:last-of-type {
+	
+}
+
+.post #idc-container-parent
+{
+	border-top: 1px dotted #DDD;
+	margin-top:2px;
+}
+
+.post #idc-container {
+	max-width: none;
+}
+
+/* Взято из бутстраповских лэйблов */
+.post a[rel="tag"] {
+	  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+background-color: #5bc0de;
+}
+
+.post a[rel="tag"]:hover,
+.post a[rel="tag"]:focus {
+  background-color: #4FA7C1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.post-header-line { 
+	border-top:1px solid #DDD;
+	border-bottom:1px solid #DDD;
+	padding:5px 0px 5px 15px;
+	font-size: 12px;
+}
+
+
+
 .dmbs-left {
 
 }
 
 .dmbs-right {
-
+	margin-top: 20px;
 }
 
 .dmbs-footer-menu {
