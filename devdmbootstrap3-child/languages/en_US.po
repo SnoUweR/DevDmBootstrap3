@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DevDmBootstrap3-child\n"
 "POT-Creation-Date: 2015-06-28 19:30+0700\n"
-"PO-Revision-Date: 2015-06-28 23:34+0700\n"
+"PO-Revision-Date: 2015-06-29 01:18+0700\n"
 "Last-Translator: Vladislav 'SnoUweR' Kovalev <snouwer@gmail.com>\n"
 "Language-Team: \n"
 "Language: en_EN\n"
@@ -20,4 +20,8 @@ msgstr ""
 
 #: footer.php:6
 msgid "Template based on: %1$s by %2$s with many changes by %3$s."
+msgstr ""
+
+#: functions.php:97
+msgid "Page %1$s of %2$s"
 msgstr ""

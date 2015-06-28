@@ -92,7 +92,7 @@
                 <div class="row">
 				<div class="col-md-12 text-center">
 				<div class="navigation">
-				<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } else { posts_nav_link(); } ?>
+				<?php if(function_exists('wp_pagenavi') && false) { wp_pagenavi(); } else { wp_bs_pagination(); /* pagination_bar(); /* posts_nav_link(); */ } ?>
                 </div>
 				</div>
 				</div>
