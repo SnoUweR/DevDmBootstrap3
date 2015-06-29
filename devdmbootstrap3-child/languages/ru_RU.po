@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DevDmBootstrap3-child\n"
 "POT-Creation-Date: 2015-06-28 19:30+0700\n"
-"PO-Revision-Date: 2015-06-29 02:36+0700\n"
+"PO-Revision-Date: 2015-06-29 15:50+0700\n"
 "Last-Translator: Vladislav 'SnoUweR' Kovalev <snouwer@gmail.com>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: footer.php:6
+#: footer.php:7
 msgid "Template based on: %1$s by %2$s with many changes by %3$s."
 msgstr "Тема основана на: %1$s. Автор: %2$s. Автор модификации: %3$s."
 
@@ -29,3 +29,7 @@ msgstr "Страница %1$s из %2$s"
 #: searchform.php:4
 msgid "Search"
 msgstr "Текст для поиска"
+
+#: footer.php:6
+msgid "All Rights Reserved"
+msgstr "Все права защищены"

@@ -30,6 +30,37 @@ unregister_sidebar('right_sidebar');
         ));
 }
 
+//http://alex.leonard.ie/2010/07/27/wordpress-tip-get-the-date-of-your-first-post/
+// заюзаю для того, чтоб вывести в футере надпись вида "[годпервогопоста] - [текущийгод]"
+/**
+ * Get First Post Date Function
+ *
+ * @param  $format Type of date format to return, using PHP date standard, default Y-m-d
+ * @return Date of first post
+ */
+function ax_first_post_date($format = "Y-m-d") {
+	 // Setup get_posts arguments
+	 $ax_args = array(
+	 'numberposts' => -1,
+	 'post_status' => 'publish',
+	 'order' => 'ASC'
+	 );
+
+	 // Get all posts in order of first to last
+	 $ax_get_all = get_posts($ax_args);
+
+	 // Extract first post from array
+	 $ax_first_post = $ax_get_all[0];
+
+	 // Assign first post date to var
+	 $ax_first_post_date = $ax_first_post->post_date;
+
+	 // return date in required format
+	 $output = date($format, strtotime($ax_first_post_date));
+
+	 return $output;
+}
+
 function my_child_theme_locale() {
     load_child_theme_textdomain( 'devdmbootstrap3-child', get_stylesheet_directory() . '/languages' );
 }
