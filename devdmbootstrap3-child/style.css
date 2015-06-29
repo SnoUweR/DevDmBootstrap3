@@ -12,6 +12,7 @@ Text Domain: devdmbootstrap3
 Template: devdmbootstrap3
 */
 @import "css/bootstrap.css";
+@import url(http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,cyrillic);
 
 /* YOU SHOULD BE MAKING A CHILD THEME. Don't let me be a bad guy and erase all your hard work with a theme update. I just want to bring you new amazing features. I don't want to destroy your world. I've include a child theme to use. Need help? http://devdm.com/DevDmBootstrap3/child-themes/ */
 
@@ -19,6 +20,7 @@ Template: devdmbootstrap3
 
 body {
 	background: url("./images/photography.png");
+	font-family: 'Ubuntu', sans-serif;
 }
 
 .dmbs-container {
@@ -104,6 +106,13 @@ body {
 
 .post #idc-container {
 	max-width: none;
+}
+
+/* Чтоб не выходили за рамки поста при маленьких размерах браузера */
+.post .post-content p img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
 }
 
 /* Взято из бутстраповских лэйблов */
