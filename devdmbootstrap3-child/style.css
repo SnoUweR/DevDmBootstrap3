@@ -151,6 +151,20 @@ body {
 	margin-top: 20px;
 }
 
+.dmbs-right ul li {
+	list-style: outside none none;
+	margin-bottom: 10px;
+	border-bottom: 1px dotted #ddd;
+}
+
+.dmbs-right ul li:last-of-type {
+	border-bottom: 0;
+}
+
+.dmbs-right ul {
+	padding: 0;
+}
+
 .dmbs-footer-menu {
 }
 
