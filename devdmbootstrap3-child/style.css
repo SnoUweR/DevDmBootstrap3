@@ -99,7 +99,7 @@ body {
 .post-wrapper:last-of-type {
 }
 
-.post #idc-container-parent {
+.post #idc-container-parent, .page #idc-container-parent {
 	border-top: 1px dotted #DDD;
 	margin-top: 2px;
 }
