@@ -30,6 +30,6 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: footer.php:6
+#: footer.php:4
 msgid "All Rights Reserved"
 msgstr ""

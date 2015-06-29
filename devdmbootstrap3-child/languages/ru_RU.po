@@ -30,6 +30,6 @@ msgstr "Страница %1$s из %2$s"
 msgid "Search"
 msgstr "Текст для поиска"
 
-#: footer.php:6
+#: footer.php:4
 msgid "All Rights Reserved"
 msgstr "Все права защищены"
